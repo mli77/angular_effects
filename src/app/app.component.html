@@ -1,0 +1,16 @@
+<div>
+  <h3>EFFECTS</h3>
+  <div>
+    <label>Code: </label><input type="text" [(ngModel)]="statusCode"/>
+    <button (click)="onAdd()">Add</button>
+    <button (click)="onRemove()">Remove</button>
+  </div>
+  <div>
+    <div *ngFor="let code of code$ | async" class="http-status">
+      <div class="crop">
+        <img src="{{ code.url }}"/>
+      </div>
+      <div class="code">{{ code.code }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+.http-status {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #D50000;
+  border-radius: 5px;
+}
+
+.crop {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 500px;
+  height: 400px;
+  margin: -75px 0 0 -100px;
+}
+
+.code {
+  height: 50px;
+  padding: 10px;
+  background-color: #D50000;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
